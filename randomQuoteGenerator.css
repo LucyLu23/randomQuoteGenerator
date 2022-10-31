@@ -1,0 +1,47 @@
+body{
+    background-color: aquamarine;
+    font-size: 16px;
+    display: grid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 2rem;
+}
+a:link{
+    color: blue;
+}
+a:hover{
+    color:purple;
+}
+.picture{
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+    
+}
+
+
+header{ 
+border: 2px; 
+background-color: aqua;  
+display: flex;
+justify-content: center;
+align-items: center; 
+}
+#favoritePlaces {
+    display: left;
+
+}
+img{
+    width: 230px;
+}
+.main {
+    float: left;
+    width: 70%;
+    text-align: center;
+}
+footer{
+    font-size: smaller;
+    background-color:greenyellow;
+
+}
+
+  
