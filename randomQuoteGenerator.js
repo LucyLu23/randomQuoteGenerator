@@ -6,8 +6,13 @@ let quotes = [
     `My family love hiking in the mountains of Colorado, which make you feel relaxed from your busy job and study`,
     `It don't matter if you have lots of money to travel to expensive places, just going hiking in the trail also makes you feel pretty relaxed and happy`
   ];
-  
-  
+
+  var h4 = document.getElementById("h4");
+  h4.innerText ="MyFavoritePlacesInColorado";
+  h4.style.backgroundColor = "white";
+  h4.style.color="red";
+  console.log(h4);
+
   /* document.addEventListener("DOMContentLoaded", function(event) {
     // Random quote of the day generator
     const randomQuote = function() {

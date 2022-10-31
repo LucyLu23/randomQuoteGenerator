@@ -11,11 +11,19 @@ a:link{
 a:hover{
     color:purple;
 }
-.picture{
-    display: block;
+#picture1{   
+    margin:0ch;
+    width: 40%;       
+}
+#picture2{   
     margin: 0 auto;
     width: 40%;
-    
+    float:inline-end;    
+}
+#picture3{   
+    margin:0;
+    width: 40%;
+    clear:both;    
 }
 
 

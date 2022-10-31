@@ -5,17 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="randomQuoteGenerator.css">
-    <title>webSite</title>
+    <title>randomQuoteGenerator</title>
 </head>
 
 <body>       
     <header>the Beautiful pictures of the world</header>
-    <img class="picture" src="beach.PNG" alt="beautifulbeach" width="169px" height="136px">
-    <img class="picture"  src="JapanBattleShipIsland.PNG" alt="JapanBattleShipIsland" width="169px" height="136px">
-    <img class="picture"  src="TagbuloIslandPhilippines.PNG" alt="TagbuloIslandPhilippines" width="169px" height="136px">
+    <img id="picture1" src="beach.PNG" alt="beautifulbeach" title="beach" width="169px" height="136px">
+    <img id="picture2"  src="JapanBattleShipIsland.PNG" alt="JapanBattleShipIsland" title="JapanBattleShipIsland" width="169px" height="136px">
+    <img id="picture3"  src="TagbuloIslandPhilippines.PNG" alt="TagbuloIslandPhilippines" title="TagbuloIslandPhilippines" width="169px" height="136px">
     <aside>
     <div class="side-bar">
-        <h4>My Favorite places in Colorado</h4>
+        <h4 id="h4">My Favorite places in Colorado</h4>
         <ul id="favoritePlaces">
             <li> <a href="https://aspenchamber.org/">Aspen</a> </li>
             <li> <a href="https://www.telluride.com/">Telluride</a> </li>
@@ -48,9 +48,12 @@
     <footer>
         website created by Lucy Lu, 10-31-2022
     </footer>
-
-
-    
+   
+    <div class="form">
+    <input class="text" type="text">
+    <input class="btn" type="submit" value="comment">
+    </div>
+  
 
 
 <script src="randomQuoteGenerator.js"></script>
